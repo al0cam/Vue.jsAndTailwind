@@ -4,13 +4,22 @@
 
 <template>
   <div class="flex flex-col h-screen w-screen items-center bg-slate-500 relative">
-    <div class="border-b w-full flex flex-row">
-      <button class="text-3xl font-bold static border-r p-2 hover:scale-110">
-        Item 1
-      </button>
-      <span class="text-3xl font-bold static border-r p-2"> Item 2 </span>
-      <span class="text-3xl font-bold static border-r p-2"> Item 3 </span>
-      <span class="text-3xl font-bold static border-r p-2"> Item 4 </span>
+    <div class="flex flex-row w-full border-b justify-around">
+      <div class="flex flex-row">
+        <button class="text-3xl font-bold static border-r p-2 hover:scale-110">
+          Item 1
+        </button>
+        <span class="text-3xl font-bold static border-r p-2 bg-primary"> Item 2 </span>
+      </div>
+      <div>
+        <span class="text-5xl"> Muffins </span>
+      </div>
+      <div class="flex flex-row">
+        <button class="text-3xl font-bold static border-r p-2 hover:scale-110">
+          Item 1
+        </button>
+        <span class="text-3xl font-bold static border-r p-2 bg-primary"> Item 2 </span>
+      </div>
     </div>
 
     <div class="w-full">
